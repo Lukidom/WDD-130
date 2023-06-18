@@ -35,7 +35,6 @@ body {
 h2 {
     margin: 0;
 }
-
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -211,7 +210,14 @@ footer p {
 footer .social img {
     padding-top: 15px;
 }
-
+#subpage {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.firstParagraph {
+    grid-column: 1/2;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
