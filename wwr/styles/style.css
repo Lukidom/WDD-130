@@ -210,13 +210,52 @@ footer p {
 footer .social img {
     padding-top: 15px;
 }
+
+
+/* SUBPAGE CSS */
+
+#subImagehero {
+    width: 100%;
+}
 #subpage {
     display: grid;
-    grid-template-columns: 1fr 200px;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
 }
-.firstParagraph {
+
+#firstImage {
+    grid-column: 2/3;
+    grid-row: 1;
+    margin: 50px;
+    width: 400px;
+}
+#secondImage {
+    grid-column: 2/3;
+    grid-row: 2;
+    margin: 50px;
+    width: 400px;
+}
+#thirdImage {
+    grid-column: 2/3;
+    grid-row: 3;
+    margin: 50px;
+    width: 400px;
+}
+#firstParagraph {
+    grid-row: 1;
+}
+#secondParagraph {
+    grid-row: 2;
+}
+#thirdParagraph {
+    grid-row: 3;
+}
+#header1 {
+    grid-row: ;
+}
+.subpagearticle {
     grid-column: 1/2;
+    grid-row: 1/4;
 }
 form {
     /* Center the form on the page */
